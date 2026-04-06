@@ -1,0 +1,30 @@
+# Bağımlılıklar (imaj içinde npm ci ile kurulur)
+node_modules
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js
+.next
+out
+
+# Git ve IDE
+.git
+.gitignore
+.cursor
+*.md
+
+# Ortam (gizli anahtarlar imaja girmesin; runtime’da verin)
+.env
+.env.*
+!.env.example
+
+# Test ve geçici
+coverage
+.turbo
+*.tsbuildinfo
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
